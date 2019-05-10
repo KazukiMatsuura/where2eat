@@ -1,3 +1,5 @@
+Eatery.delete_all
+
 Eatery.create(name: "ガリショ", zip:"0", address:"天いち", tel:"00")
 Eatery.create(name: "カス食", zip:"1", address:"春日エリア", tel:"11")
 Eatery.create(name: "自宅", zip:"2", address:"春３", tel:"22")
