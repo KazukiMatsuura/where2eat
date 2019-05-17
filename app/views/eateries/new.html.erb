@@ -1,0 +1,11 @@
+<h1>Eateries#new</h1>
+<p>Find me in app/views/eateries/new.html.erb</p> 
+
+<%= form_with model: Eatery.new, url: {action: :create}, local: true do |f| %>
+<div>
+ <%= f.label :name %>
+ <%= f.text_field :name, id: 'eatery_name' %>
+</div>
+ <%= f.submit %>
+<% end %>
+
